@@ -1,0 +1,206 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:  black;
+}
+
+.cabecalho{
+    column-count: 2;
+    background-color: #b54cfcda;
+}
+
+.logo img{
+    height: 120px;
+    width: auto;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    text-align: center;
+}
+
+li{
+    display: inline-flex;
+}
+
+li a, .titulo-submenu{
+    display: inline-block;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover, .submenu:hover .titulo-submenu{
+    background-color: #b54cfcda;
+    color: white;
+}
+
+li.submenu{
+    display: inline-block;
+}
+
+.lista-itens{
+    display: none;
+    position: absolute;
+    background-color: #b54cfcda;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px black;    
+}
+
+.lista-itens a{
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.lista-itens a:hover{
+    background-color: rgba(0, 128, 0, 0.671);
+    color: white;
+}
+
+.submenu:hover .lista-itens{
+    display: block;
+}
+
+.destaque1{
+    background-image: url(../IMG/Background\ Placeholder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: black;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color:  #b64cfc98;
+    text-align: left;
+}
+
+.destaque2{
+    background-image: url(../IMG/Background\ Placeholder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: black;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color:  #b64cfc98;
+    text-align: left;
+}
+
+.destaque1 h1, .destaque1 p, .destaque1 a, .destaque2 h1, .destaque2 p, .destaque2 a{
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.destaque1 a, .destaque2 a{
+    color: black;
+    background-color: lightgreen;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.destaque1 a:hover, .destaque2 a:hover{
+    background-color: violet;
+    color: white;
+    font-weight: bolder;
+}
+
+.rodape{
+    background-color: #b54cfcda;
+    color: white;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.produtos{
+    background-color: rgb(248, 204, 211);
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+
+.produtos h3, .coluna1 h1{
+    font-weight: bolder;
+}
+
+.coluna3{
+    column-count: 3;
+    text-align: center;
+}
+
+.coluna3 img{
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: auto;
+    display: block;
+    
+}
+
+.formulario, .t_conosco, .contato, .sobre{
+    text-align: justify;
+    background-color: rgb(248, 204, 211);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.formulario img{
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+
+.contato a{
+    text-decoration: none;
+    color: blue;
+}
+
+.contato img{
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+
+.sobre ul{
+    margin: 0;
+    text-align: justify;
+}
+
+.sobre p{
+    margin-right: 600px;
+}
+
+.sobre img{
+    height: 350px;
+    position: absolute;
+    top: 190px;
+    right: 50px;
+
+}
+
+
+/* #b64cfc98 */

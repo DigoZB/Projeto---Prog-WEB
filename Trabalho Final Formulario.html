@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essência da Beleza - Formulário</title>
+    <link rel="stylesheet" href="./CSS/Trabalho Final Prog WEB.css">
+</head>
+<body>
+
+    <section class="cabecalho">
+        <div class="logo">
+            <img src="./IMG/Placeholder.png" alt="Logotipo Essencial da Beleza">
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <h2><a href="Trabalho Final Inicio.html">Início</a></h2>
+                </li>
+                <li class="submenu">
+                    <h2><a href="#" class="titulo-submenu">Empresa</a></h2>
+                    <div class="lista-itens">
+                        <!-- <a href="Trabalho Final Historico.html">Histórico da Empresa</a> -->
+                        <a href="Trabalho Final Trabalhe Conosco.html">Trabalhe Conosco</a>
+                        <a href="Trabalho Final Sobre Nos.html">Sobre nós</a>
+                    </div>
+                </li>
+                <li class="submenu">
+                    <h2><a href="#" class="titulo-submenu">Produtos</a></h2>
+                    <div class="lista-itens">
+                        <a href="Trabalho Final Cosméticos.html">Cosméticos</a>
+                        <a href="Trabalho Final Saude">Saúde</a>
+                    </div>
+                </li>
+                <li class="submenu">
+                    <h2><a href="Trabalho Final Contato.html" class="titulo-submenu">Contato</a></h2>
+                </li>
+            </ul>
+        </div> 
+    </section>    
+
+    <section class="formulario">
+
+        <form action="formulario.js" method="get">
+            <h2>FIQUE POR DENTRO DE TODAS AS NOVIDADES, LANÇAMENTOS E PROMOÇÕES!</h2>
+            <p>Inscreva-se agora para receber nossos e-mails e mensagens e esteja sempre atualizado sobre os últimos lançamentos de produtos, 
+            promoções exclusivas, eventos especiais e muito mais diretamente na sua caixa de entrada.</p>
+
+            <p>Ao responder este formulário você concorda em receber novidades de lançamentos e promoções em seu e-mail e/ou SMS.</p>
+            <p>Deseja continar?</p>
+            <fieldset>
+                <input type="radio" name="selecao" value="sim">
+                <label for="Sim">Sim</label>
+                <input type="radio" name="selecao" value="nao">
+                <label for="Não">Não</label>
+            </fieldset>           
+
+            <br>
+            <label for="pnome">Informe o seu nome completo:</label><br>
+            <input type="text" name="nome" placeholder="Rodrigo Ziegler Berti"><br>
+
+            <br>
+            <label for="cpf">Informe seu CPF:</label><br>
+            <input type="text" name="cpf" placeholder="XXX.XXX.XXX-XX"><br>
+
+            <br>
+            <label for="telefone">Informe seu telefone:</label><br>
+            <input type="tel" name="telefone" placeholder="(XXX) XXXXX-XXXX"><br>
+
+            <br>
+            <label for="email">Informe seu e-mail:</label><br>
+            <input type="email" name="email" placeholder="rodrigo.berti@ftec.com.br"><br>
+
+            <br>
+            <label for="endereco">Informe seu endereço:</label><br>
+            <input type="text" name="endereco" placeholder=""><br>
+            
+            <br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </form>
+
+        <img src="./IMG/Sacolas.png" alt="Sacolas de Compras">
+
+    </section>
+
+    <section class="rodape">
+        <div class="coluna1"></div>
+        <div>Todos os direitos reservados &reg;</div>
+    </section>    
+    
+</body>
+</html>
