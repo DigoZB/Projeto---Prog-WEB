@@ -46,7 +46,7 @@ li.submenu{
 .lista-itens{
     display: none;
     position: absolute;
-    background-color: #b54cfcda;
+    background-color: #b64cfc;
     min-width: fit-content;
     box-shadow: 0px 8px 16px 0px black;    
 }
@@ -70,32 +70,30 @@ li.submenu{
 }
 
 .destaque1{
-    background-image: url(../IMG/Background\ Placeholder.jpg);
+    background-image: url(../IMG/Background_Destaque01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom center;
     padding-top: 200px;
     padding-bottom: 200px;
-    color: black;
+    color: white;
     margin-right: 0px;
     margin-left: 0px;
-    background-color:  #b64cfc98;
     text-align: left;
 }
 
 .destaque2{
-    background-image: url(../IMG/Background\ Placeholder.jpg);
+    background-image: url(../IMG/Background_Destaque02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom center;
     padding-top: 200px;
     padding-bottom: 200px;
-    color: black;
+    color: white;
     margin-right: 0px;
     margin-left: 0px;
-    background-color:  #b64cfc98;
     text-align: left;
 }
 
@@ -156,21 +154,74 @@ li.submenu{
     
 }
 
-.formulario, .t_conosco, .contato, .sobre{
+/* .formulario, .contato, .sobre{
     text-align: justify;
     background-color: rgb(248, 204, 211);
     color: black;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 35px;
     padding-left: 40px;
-    padding-right: 20px;
+    padding-right: 40px;
+} */
+
+.t_conosco, .formulario, .contato, .sobre{
+    text-align: justify;
+    background-color: rgb(248, 204, 211);
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+
+.t_conosco p, .t_conosco h3, .t_conosco h2, .t_conosco label, .t_conosco input, .t_conosco textarea{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.t_conosco img{
+    height: 350px;
+    position: absolute;
+    top: 650px;
+    right: 50px;
+}
+
+.formulario p, .formulario h3, .formulario h2, .formulario label, .formulario input{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .formulario img{
-    height: 300px;
+    height: 350px;
     position: absolute;
-    top: 400px;
+    top: 450px;
     right: 150px;
+}
+
+.sobre p{
+    margin-right: 460px;
+    margin-left: 40px;
+}
+
+.sobre h3, .sobre h2, .sobre li{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sobre ul{
+    margin: 0;
+    text-align: justify;
+}
+
+.sobre img{
+    height: 350px;
+    background-attachment: fixed;
+    position: absolute;
+    top: 350px;
+    right: 75px;
+}
+
+.contato p, .contato h3, .contato h2, .contato label, .contato input, .contato textarea, .contato a{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .contato a{
@@ -181,26 +232,38 @@ li.submenu{
 .contato img{
     height: 500px;
     position: absolute;
-    top: 250px;
+    top: 450px;
     right: 50px;
 }
 
-.sobre ul{
-    margin: 0;
-    text-align: justify;
+.topo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.sobre p{
-    margin-right: 600px;
+.t_conosco .topo{
+    background-image: url(../IMG/Background_Trabalhe_Conosco.jpg);
 }
 
-.sobre img{
-    height: 350px;
-    position: absolute;
-    top: 190px;
-    right: 50px;
-
+.formulario .topo{
+    background-image: url(../IMG/Background_Formulario.jpg);
 }
+
+.sobre .topo{
+    background-image: url(../IMG/Background_Sobre_Nos.jpg);
+}
+
+.contato .topo{
+    background-image: url(../IMG/Background_Contato.jpg);
+}
+
 
 
 /* #b64cfc98 */
