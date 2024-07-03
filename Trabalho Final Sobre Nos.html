@@ -4,67 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essência da Beleza - Sobre Nós</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/Trabalho Final Prog WEB.css">
 </head>
 <body>
     
-    <section class="cabecalho">
-        <div class="logo">
-            <img src="./IMG/Placeholder.png" alt="Logotipo Essencial da Beleza">  
-        </div>
+    <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="Trabalho Final Inicio.html" class="navbar-brand logotipo">
+                <img src="/IMG/Logotipo ES.png" alt="Essencia da Beleza" width="50" height="50" class="d-inline-block align-text-center"> Essência da Beleza
+            </a>
 
-        <div class="menu">
-            <ul>
-                <li>
-                    <h2><a href="Trabalho Final Inicio.html">Início</a></h2>
-                </li>
-                <li class="submenu">
-                    <h2><a href="#" class="titulo-submenu">Empresa</a></h2>
-                    <div class="lista-itens">
-                        <!-- <a href="Trabalho Final Historico.html">Histórico da Empresa</a> -->
-                        <a href="Trabalho Final Trabalhe Conosco.html">Trabalhe Conosco</a>
-                        <a href="Trabalho Final Sobre Nos.html">Sobre nós</a>
-                    </div>
-                </li>
-                <li class="submenu">
-                    <h2><a href="#" class="titulo-submenu">Produtos</a></h2>
-                    <div class="lista-itens">
-                        <a href="Trabalho Final Cosméticos.html">Cosméticos</a>
-                        <a href="Trabalho Final Saude">Cuidados Diários</a>
-                    </div>
-                </li>
-                <li class="submenu">
-                    <h2><a href="Trabalho Final Contato.html" class="titulo-submenu">Contato</a></h2>
-                </li>
-            </ul>
-        </div> 
-    </section>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Trabalho Final Inicio.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Trabalho Final Contato.html">Contato</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Empresa</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Trabalho Final Trabalhe Conosco.html" class="dropdown-item">Trabalhe Conosco</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="Trabalho Final Sobre Nos.html" class="dropdown-item">Sobre Nós</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Trabalho Final Cosmeticos.html" class="dropdown-item">Cosméticos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="Trabalho Final Cuidados.html" class="dropdown-item">Cuidados Diários</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search &#9998;" aria-label="Search">
+                    <button class="btn busca btn-primary" style="border-radius: 50%;" type="submit"><img src="/IMG/lupa.png" alt="" style="margin-bottom: 4px;"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <section class="sobre">
+
         <div class="topo"></div>
-
-        <h2>Quem Somos?</h2>
-        <p>Somos uma empresa comprometida com a entrega de produtos de alta qualidade e com a criação de fortes laços com nossos colaboradores.
-        Desde nossa fundação em 2005 estamos trabalhando visando superar as expectativas de nossos clientes, sempre buscando a excelência em nossos atendimentos e entregas.</p>
-
-        <h3>Nossa História</h3>
-        <p>Fundada por Ivan Berti e Lurdes Ziegler Berti, Essência da Beleza teve origem apartir do encantamento e vontade de empreender dos dois. Ao longo dos anos, crescemos e evoluímos
-        mantendo sempre nosso compromisso com a escelência e inovação.</p>
         
-        <h3>Nossa Missão</h3>
-        <p>Na Essência da Beleza, nossa missão é proporcionar a melhor experiência para nossos clientes, inovando na relação entre vendedor e cliente.
-        Buscamos construir um ambiente confortável visando o bem-estar do cliente por meio de nosso atendimento personaliazdo para cada cliente e proatividade de nossa equipe.</p>
-
-        <h3>Nossos Valores</h3>
-        <ul>
-            <li><span style="font-weight: bolder;">Compromisso com o Cliente</span>: Colocamos nossos clientes em primeiro lugar, sempre priorizando a confiança e o bem-estar.</li>
-            <li><span style="font-weight: bolder;">Integridade</span>: Agimos com honestidade e transparência em tudo o que fazemos.</li><br>
-            <li><span style="font-weight: bolder;">Qualidade</span>: Buscamos a excelência em cada produto ou serviço que oferecemos.</li>
-            <li><span style="font-weight: bolder;">Inovação</span>: Possuimos o compromisso com a inovação, buscamos maneiras de melhorar e superar as expectativas de nossos clientes.</li>
-        </ul>
+        <div class="container-fluid">
         
-        <img src="./IMG/Sobre.png" alt="Sobre nós">
-
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 style="margin-top: 35px;">Quem Somos?</h2>
+                    <p>Somos uma empresa comprometida com a entrega de produtos de alta qualidade e com a criação de fortes laços com nossos colaboradores.
+                    Desde nossa fundação em 2005 estamos trabalhando visando superar as expectativas de nossos clientes, sempre buscando a excelência em nossos atendimentos e entregas.</p><br>
+                
+                    <h3>Nossa História</h3>
+                    <p>Fundada por Ivan Berti e Lurdes Ziegler Berti, Essência da Beleza teve origem apartir do encantamento e vontade de empreender dos dois. Ao longo dos anos, crescemos e evoluímos
+                    mantendo sempre nosso compromisso com a escelência e inovação.</p><br>
+                    
+                    <h3>Nossa Missão</h3>
+                    <p>Na Essência da Beleza, nossa missão é proporcionar a melhor experiência para nossos clientes, inovando na relação entre vendedor e cliente.
+                    Buscamos construir um ambiente confortável visando o bem-estar do cliente por meio de nosso atendimento personaliazdo para cada cliente e proatividade de nossa equipe.</p><br>
+                
+                    <h3>Nossos Valores</h3>
+                    <ul>
+                        <li><span style="font-weight: bolder;">Compromisso com o Cliente</span>: Colocamos nossos clientes em primeiro lugar, sempre priorizando a confiança e o bem-estar.</li><br>
+                        <li><span style="font-weight: bolder;">Integridade</span>: Agimos com honestidade e transparência em tudo o que fazemos.</li><br>
+                        <li><span style="font-weight: bolder;">Qualidade</span>: Buscamos a excelência em cada produto ou serviço que oferecemos.</li><br>
+                        <li><span style="font-weight: bolder;">Inovação</span>: Possuimos o compromisso com a inovação, buscamos maneiras de melhorar e superar as expectativas de nossos clientes.</li><br>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4"><img src="./IMG/Sobre.png" alt="Sobre nós"></div>
+            </div>
+            
+        </div>
     </section>
 
     <section class="rodape">
