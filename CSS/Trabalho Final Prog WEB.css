@@ -1,74 +1,20 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  color: black;
-}
-
-.cabecalho {
-  -moz-column-count: 2;
-       column-count: 2;
-  background-color: rgba(181, 76, 252, 0.8549019608);
-}
-
-.logo img {
-  height: 120px;
-  width: auto;
-  display: block;
-}
-
-ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 10;
-  overflow: hidden;
-  text-align: center;
-}
-
-li {
-  display: inline-flex;
-}
-
-li a, .titulo-submenu {
-  display: inline-block;
-  padding: 0px 15px;
-  text-decoration: none;
   color: white;
 }
 
-li a:hover, .submenu:hover .titulo-submenu {
-  background-color: rgba(181, 76, 252, 0.8549019608);
-  color: white;
+.navbar {
+  background-color: #67268a;
 }
 
-li.submenu {
-  display: inline-block;
+.logotipo img {
+  border-radius: 50%;
 }
 
-.lista-itens {
-  display: none;
-  position: absolute;
-  background-color: #b64cfc;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  box-shadow: 0px 8px 16px 0px black;
-}
-
-.lista-itens a {
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-weight: bolder;
-}
-
-.lista-itens a:hover {
-  background-color: rgba(0, 128, 0, 0.671);
-  color: white;
-}
-
-.submenu:hover .lista-itens {
-  display: block;
+.busca {
+  background-color: white;
+  border-color: white;
 }
 
 .destaque1 {
@@ -105,89 +51,82 @@ li.submenu {
 }
 
 .destaque1 a, .destaque2 a {
-  background-color: lightgreen;
-  color: black;
+  background-color: rgb(44, 151, 44);
+  border-color: rgb(44, 151, 44);
+  color: white;
   font-weight: bolder;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 100px;
   text-align: left;
   text-decoration: none;
 }
 
-.destaque1 a:hover, .destaque2 a:hover {
-  background-color: violet;
-  color: white;
-  font-weight: bolder;
-}
-
-.rodape {
-  background-color: rgba(181, 76, 252, 0.8549019608);
-  color: white;
-  font-weight: bolder;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.produtos {
-  background-color: rgb(248, 204, 211);
-  color: black;
-  font-weight: bolder;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.produtos h3, .coluna1 h1 {
-  font-weight: bolder;
-}
-
-.coluna3 {
-  -moz-column-count: 3;
-       column-count: 3;
-  text-align: center;
-}
-
-.coluna3 img {
-  height: 250px;
-  width: auto;
+.card-img-top {
+  max-width: 750px;
   display: block;
   margin: auto;
-  display: block;
+}
+
+.rodape, .cabecalho, .produtos {
+  background-color: #67268a;
+  color: white;
+  font-weight: bolder;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.produtos .card {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card-title, .card-text {
+  font-weight: bolder;
+  color: black;
+}
+
+.produtos .card-text {
+  text-align: left;
+}
+
+.produtos a {
+  color: white;
+  font-weight: bolder;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.produtos img {
+  margin-top: 15px;
+  max-width: 300px;
+  min-width: 200px;
+  max-height: 450px;
 }
 
 .t_conosco, .formulario, .contato, .sobre {
   text-align: justify;
-  background-color: rgb(248, 204, 211);
+  background-color: rgb(235, 185, 210);
   color: black;
   padding-top: 0px;
   padding-bottom: 35px;
 }
 
 .t_conosco p, .t_conosco h3, .t_conosco h2, .t_conosco label, .t_conosco input, .t_conosco textarea, .formulario p, .formulario h3, .formulario h2, .formulario label,
-.formulario input, .sobre h3, .sobre h2, .sobre li, .contato p, .contato h3, .contato h2, .contato label, .contato input, .contato textarea, .contato a {
-  margin-left: 40px;
-  margin-right: 40px;
+.formulario input, .sobre h3, .sobre h2, .sobre p, .contato p, .contato h3, .contato h2, .contato label, .contato input, .contato textarea, .contato a {
+  padding-left: 40px;
 }
 
-.t_conosco img {
-  height: 350px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 650px;
-  right: 50px;
+.contato input, .contato textarea, .contato button, .t_conosco input, .t_conosco textarea, .t_conosco button, .formulario input, .formulario button {
+  margin-left: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.formulario img {
-  height: 325px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 450px;
-  right: 150px;
+.t_conosco h3, .t_conosco h2, .formulario h3, .formulario h2, .sobre h3, .sobre h2, .contato h3, .contato h2 {
+  font-weight: bolder;
 }
 
-.sobre p {
-  margin-right: 460px;
+.sobre li {
   margin-left: 40px;
 }
 
@@ -196,25 +135,18 @@ li.submenu {
   text-align: justify;
 }
 
-.sobre img {
-  height: 350px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 350px;
-  right: 75px;
-}
-
 .contato a {
   text-decoration: none;
   color: blue;
 }
 
-.contato img {
-  height: 500px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 450px;
-  right: 50px;
+.contato img, .sobre img, .t_conosco img, .formulario img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  min-width: 400px;
+  display: block;
+  margin: auto;
 }
 
 .t_conosco .topo {
@@ -263,4 +195,35 @@ li.submenu {
   padding-bottom: 100px;
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.close {
+  max-width: 200px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }/*# sourceMappingURL=Trabalho Final Prog WEB.css.map */
