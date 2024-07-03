@@ -1,0 +1,7 @@
+@mixin imagem($tamanho, $dist_topo, $dist_dir){
+    height: $tamanho;
+    background-attachment: fixed;
+    position: absolute;
+    top: $dist_topo;
+    right: $dist_dir;
+}

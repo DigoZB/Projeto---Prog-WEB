@@ -1,0 +1,28 @@
+@mixin background_corpo($bc, $cor, $fonte, $tamanho){
+    background-color: $bc;
+    color: $cor;
+    font-weight: $fonte;
+    padding-top: $tamanho;
+    padding-bottom: $tamanho;
+}
+
+@mixin background_topo($imagem){
+    background-image: url($imagem);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@mixin background_botao($backgroundcolor, $cor, $fonte, $tamanho){
+    background-color: $backgroundcolor;
+    border-color: $backgroundcolor;
+    color: $cor;
+    font-weight: $fonte;
+    padding-top: $tamanho;
+    padding-bottom: $tamanho;
+}
